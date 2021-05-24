@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Register </title>
+        <link rel="stylesheet" href="/static/css/style1.css">              
+    </head>
+    <body></br></br></br></br></br>
+        <div align="center">
+          <div align="center" class="border">
+             <div class="header">
+                <h1 class="word">Update</h1>
+             </div></br></br></br>
+            <h2 class="word">
+                <form action="{{ url_for('register') }}" method="post">
+                  <div class="msg">{{ msg }}</div>
+                    <input id="zone_name" name="zone_name" type="text" placeholder="Zone name" class="textbox"/></br></br>
+                    <input id="latitude" name="latitude" type="text" placeholder="latitude" class="textbox"/></br></br>
+                    <input id="longitude" name="longitude" type="text" placeholder="longitude" class="textbox"/></br></br>
+                    <input type="submit" class="btn" value="SET"></br>
+                </form>
+            </h2>
+            
+          </div>
+        </div>
+    </body>
+</html>
+
+<!-- Store this code in 'index.html' file inside the 'templates' folder-->
+  
+
+
